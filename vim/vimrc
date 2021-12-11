@@ -1,0 +1,37 @@
+" =====================================================
+"
+"           Jorge Castano  
+"
+" =====================================================
+
+
+" Remap VIM 0 to first non-blank character
+nmap 0 ^
+
+
+"Move up and down by visible lines if current line is wrapped
+nmap j gj
+nmap k gk
+
+
+" Always show current position (row & column)
+set ruler
+
+
+" Show command-keys pressed on bottom-right
+set showcmd
+
+
+" Ignores case when searching
+set ignorecase
+
+
+" Lines are numbered relative to cursor's current position
+set relativenumber
+
+
+
+
+
+
+
